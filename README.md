@@ -22,3 +22,9 @@ GrabAllCirclesOfSizeX.ipy
 
 GrabFailingCircles.ipy
   This snip will grab circles that exist in the job and evaluate the criteria of each for failing flags
+
+MirrorBounce.py
+  This py will let you calculate a mirror face plane inside of inspire using a direct and virtual point. a direct point a taken directly from laser tracker to SMR mirror cube. a virtual point is taken by bouncing the mirror beam through the mirror face, to the SMR, and catching it again with the tracker.
+
+mirrorbouncetest.sai
+  This is a native inspire file that wil allow you to test the MirrorBounce.py file if needed to understand its functionality.
