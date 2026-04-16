@@ -28,3 +28,9 @@ MirrorBounce.py
 
 mirrorbouncetest.sai
   This is a native inspire file that wil allow you to test the MirrorBounce.py file if needed to understand its functionality.
+
+Mirror_Point_Group.py
+  This will let you choose a plane then choose a point group to mirror across that plane (mirror face)
+
+MirrorBounce_Meas_Profile.py
+  This script acts as a measurment profile. It will have guides for measuring mirror points. First it asks for a mirror plane. Then you can hit "ok" to measure a mirror point. Each mirror point is auto mirrored across the plane and put in a result point group in the tree.
