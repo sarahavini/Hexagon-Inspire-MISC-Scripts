@@ -1,9 +1,6 @@
-# Hexagon-Inspire-MISC-Scripts
+# Hexagon-Inspire-Python-Scripts
 
-
-
-Contains small misc scripts for inspire python
-
+Contains Python scripts for Hexagon Inspire Metrology Software
 
 Delete_alignment_input_buckets_bestfit.py
   This snip will get the inputs of a best fit alignment and delete them if they exist. Working in V2025.1.169.0
