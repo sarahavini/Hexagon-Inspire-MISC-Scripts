@@ -31,3 +31,19 @@ Mirror_Point_Group.py
 
 MirrorBounce_Meas_Profile.py
   This script acts as a measurment profile. It will have guides for measuring mirror points. First it asks for a mirror plane. Then you can hit "ok" to measure a mirror point. Each mirror point is auto mirrored across the plane and put in a result point group in the tree.
+
+Nominals.txt
+  This txt file can be used for testing with the "MeasuredNominalPointsSetup.sai" file
+
+MeasuredNominalPointsSetup.sai
+  Inspire file that allows testing in simulation of the rename by interpoint distance client server scripts
+
+Rename_By_InterPoint_Distance- R8.py
+  This is the server side of the client server connection for an inspire project that allows and operator to live measure three points in a room (known pre set grid of nominal points AKA nominals.txt) then will best fit the instrument into the grid and trigger and auto measure for the rest of the targets. This py script should be packaged into an exe file AND CALLED FROM THE INSPIRE CLIENT SCRIPT. It was left as a .py so you can edit.
+
+Inspire Client - R9.py
+  This the client side that runs from inside of inspire and pairs with "Rename_By_InterPoint_Distance-R8.py" above. This should be embedded in the actions tab. There are several places where there are hard coded paths. You can swap from simulation to live instrument by commenting out the lines triggering points and switching there.
+
+
+
+  
